@@ -3,3 +3,9 @@
     font-size: 18px;
     color: rgba(10, 10, 10, 0.685);
 }
+
+.custom-table table tr th{
+    border-collapse: collapse;
+    border: 2px solid;
+    padding: 15px 75px;
+}
