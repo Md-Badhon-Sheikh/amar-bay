@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -32,11 +32,11 @@
 <body>
   <header>
     <!-- navigation section  -->
-    <div class="h-8 bg-black">
-
-    </div>
-    <section>
-      <div class="navbar bg-white py-4 lg:pr-20 lg:pl-10">
+    
+    <section class="relative">
+      
+      <div class="navbar fixed z-50 shadow-lg bg-white mt-7 py-4">
+        <div class="h-8 z-50 fixed mt-[-115px] bg-black ml-[-8px] w-[100%]"></div>
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -167,9 +167,12 @@
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
         <!-- firs card  -->
         <div class="card card-compact border-2 rounded-none">
-          <figure>
-            <img class="my-0" src="images/featured products/Featured products 01.jpg" alt="Shoes" />
-          </figure>
+          <div class="img_container">
+            <a href="#">
+              <img class="my-0 " src="images/featured products/Featured products 01.jpg" alt="Shoes" />
+              <img class="my-0 opacity-0 img_2" src="images/featured products/Featured products 01.1.jpg" alt="Shoes" />
+            </a>
+          </div>
           <div class="card-body space-y-3">
 
             <p class="text-base font-semibold text-center">Ladies Open Heel - Slip On - Namira</p>
@@ -484,11 +487,11 @@
         </div>
     </section>
     <!-- RECEIVE GIFT VOUCHER Section  -->
-     <section class=" max-w-[1200px] mx-auto my-16">
+    <section class=" max-w-[1200px] mx-auto my-16">
       <h2 class="text-3xl font-bold text-primary-font mb-12 text-center">RECEIVE GIFT VOUCHER</h2>
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
         <!-- firs card  -->
-        <div class="card card-compact border-2 rounded-none">
+        <div id="first_card" class="card card-compact border-2 rounded-none">
           <figure>
             <img class="my-0" src="images/gift voucher 01.jpg" alt="Shoes" />
           </figure>
@@ -502,7 +505,7 @@
           </div>
         </div>
         <!-- second card  -->
-        <div class="card card-compact border-2 rounded-none">
+        <div id="first_card" class="card card-compact border-2 rounded-none">
           <figure>
             <img class="my-0" src="images/gift voucher 02.jpg" alt="Shoes" />
           </figure>
@@ -515,7 +518,7 @@
           </div>
         </div>
         <!-- third card  -->
-        <div class="card card-compact border-2 rounded-none">
+        <div id="first_card" class="card card-compact border-2 rounded-none">
           <figure>
             <img class="my-0" src="images/gift voucher 03.jpg" alt="Shoes" />
           </figure>
@@ -529,7 +532,7 @@
           </div>
         </div>
         <!-- fourth card  -->
-        <div class="card card-compact border-2 rounded-none">
+        <div id="first_card" class="card card-compact border-2 rounded-none">
           <figure>
             <img class="my-0" src="images/gift voucher 04.jpg" alt="Shoes" />
           </figure>
@@ -543,7 +546,7 @@
           </div>
         </div>
       </div>
-     </section>
+    </section>
   </main>
   <footer>
 
