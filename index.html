@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -32,12 +32,11 @@
 <body>
   <header>
     <!-- navigation section  -->
-    
-    <section>
-      <div class="navbar bg-white fixed z-50 py-4 mt-8 lg:pr-20 lg:pl-10 drop-shadow-lg">
-        <div class="h-16 fixed bg-black mt-[-150px] w-full lg:-ml-10">
 
-        </div>
+    <section class="">
+      <div class="navbar fixed z-50 shadow-lg bg-white mt-7 py-4">
+        <div class="h-8 z-50 fixed mt-[-115px] bg-black ml-[-8px] w-[100%]"></div>
+
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -130,9 +129,9 @@
       <hr>
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5">
         <!-- first card  -->
-        <div class="card">
+        <div class="card rounded-none">
           <figure>
-            <img src="images/Collection-01.png" alt="Shoes" />
+            <img class="card_effect" src="images/Collection-01.png" alt="Shoes" />
           </figure>
           <div class="card-body text-center items-center">
             <h2 class="card-title text-2xl">MEN'S CASUAL</h2>
@@ -140,9 +139,9 @@
           </div>
         </div>
         <!-- second cord  -->
-        <div class="card">
+        <div class="card rounded-none">
           <figure>
-            <img src="images/Collection-02.png" alt="Shoes" />
+            <img class="card_effect" src="images/Collection-02.png" alt="Shoes" />
           </figure>
           <div class="card-body text-center items-center">
             <h2 class="card-title text-2xl">MEN'S FORMAL</h2>
@@ -150,9 +149,9 @@
           </div>
         </div>
         <!-- third card  -->
-        <div class="card">
+        <div class="card rounded-none">
           <figure>
-            <img src="images/Collaction-03.jpeg" alt="Shoes" />
+            <img class="card_effect" src="images/Collaction-03.jpeg" alt="Shoes" />
           </figure>
           <div class="card-body text-center items-center">
             <h2 class="card-title text-2xl">MEN'S SANDAL</h2>
@@ -168,9 +167,12 @@
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
         <!-- firs card  -->
         <div class="card card-compact border-2 rounded-none">
-          <figure>
-            <img class="my-0" src="images/featured products/Featured products 01.jpg" alt="Shoes" />
-          </figure>
+          <div class="img_container">
+            <a href="#">
+              <img class="my-0 " src="images/featured products/Featured products 01.jpg" alt="Shoes" />
+              <img class="my-0 opacity-0 img_2" src="images/featured products/Featured products 01.1.jpg" alt="Shoes" />
+            </a>
+          </div>
           <div class="card-body space-y-3">
 
             <p class="text-base font-semibold text-center">Ladies Open Heel - Slip On - Namira</p>
@@ -322,7 +324,7 @@
         <!-- first Card  -->
         <div class="card bg-base-100">
           <figure>
-            <img src="images/Brand 01.png" alt="Shoes" />
+            <img class="card_effect" src="images/Brand 01.png" alt="Shoes" />
           </figure>
           <div class="card-body pt-16">
             <h2 class="card-title font-bold mx-auto text-primary-font text-2xl">ELEGANTE</h2>
@@ -332,7 +334,7 @@
         <!-- second Card  -->
         <div class="card bg-base-100">
           <figure>
-            <img src="images/Brand 02.png" alt="Shoes" />
+            <img class="card_effect" src="images/Brand 02.png" alt="Shoes" />
           </figure>
           <div class="card-body pt-16">
             <h2 class="card-title font-bold mx-auto text-primary-font text-2xl">LARA CLARA</h2>
@@ -343,7 +345,7 @@
         <!-- third Card  -->
         <div class="card bg-base-100">
           <figure>
-            <img src="images/Brand 03.png" alt="Shoes" />
+            <img class="card_effect" src="images/Brand 03.png" alt="Shoes" />
           </figure>
           <div class="card-body pt-16">
             <h2 class="card-title font-bold mx-auto text-primary-font text-2xl">BAY SOFT</h2>
@@ -353,7 +355,7 @@
         <!-- fourth Card  -->
         <div class="card bg-base-100">
           <figure>
-            <img src="images/Brand 04.png" alt="Shoes" />
+            <img class="card_effect" src="images/Brand 04.png" alt="Shoes" />
           </figure>
           <div class="card-body pt-16">
             <h2 class="card-title font-bold mx-auto text-primary-font text-2xl">STRIKER</h2>
@@ -364,9 +366,9 @@
       <!-- Puja Collection  -->
       <div class="flex flex-col lg:flex-row justify-between mt-10 lg:gap-20">
         <!-- first card  -->
-        <div class="card card-compact flex-1">
+        <div class="card card-compact flex-1 rounded-none">
           <figure>
-            <img class="px-4 py-2" src="images/discunt for puja.jpg" alt="Shoes" />
+            <img class="px-4 py-2 card_effect" src="images/discunt for puja.jpg" alt="Shoes" />
           </figure>
           <div class="card-body text-center">
             <h2 class="card-title text-primary-font text-2xl font-bold mx-auto uppercase">Puja Collection</h2>
@@ -374,9 +376,9 @@
           </div>
         </div>
         <!-- second card  -->
-        <div class="card card-compact flex-1">
+        <div class="card card-compact flex-1 rounded-none">
           <figure>
-            <img class="px-4 py-2" src="images/discunt for puja2.jpg" alt="Shoes" />
+            <img class="px-4 py-2 card_effect" src="images/discunt for puja2.jpg" alt="Shoes" />
           </figure>
           <div class="card-body text-center">
             <h2 class="card-title text-primary-font text-2xl font-bold mx-auto">BAY LOYALS</h2>
@@ -451,12 +453,12 @@
       </div>
     </section>
     <!-- price card section  -->
-    <section class=" max-w-[1200px] mx-auto my-16">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+    <section class=" max-w-[1180px] mx-auto my-16">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <!-- first card  -->
-        <div class="card card-compact">
+        <div class="card card-compact rounded-none ">
           <figure>
-            <img class="px-4 py-2" src="images/price card 01.png" alt="Shoes" />
+            <img class="card_effect" src="images/price card 01.png" alt="Shoes" />
           </figure>
           <div class="card-body text-center">
             <h2 class="card-title text-primary-font text-2xl font-bold mx-auto uppercase">Under 690</h2>
@@ -464,9 +466,9 @@
           </div>
         </div>
         <!-- first card  -->
-        <div class="card card-compact">
+        <div class="card card-compact rounded-none">
           <figure>
-            <img class="px-4 py-2" src="images/price card 02.png" alt="Shoes" />
+            <img class="card_effect" src="images/price card 02.png" alt="Shoes" />
           </figure>
           <div class="card-body text-center">
             <h2 class="card-title text-primary-font text-2xl font-bold mx-auto uppercase">Under 1290</h2>
@@ -474,9 +476,9 @@
           </div>
         </div>
         <!-- third card  -->
-        <div class="card card-compact ">
+        <div class="card card-compact rounded-none">
           <figure>
-            <img class="px-4 py-2" src="images/price card 03.png" alt="Shoes" />
+            <img class="card_effect" src="images/price card 03.png" alt="Shoes" />
           </figure>
           <div class="card-body text-center">
             <h2 class="card-title text-primary-font text-2xl font-bold mx-auto uppercase">Under 1590</h2>
@@ -485,13 +487,13 @@
         </div>
     </section>
     <!-- RECEIVE GIFT VOUCHER Section  -->
-     <section class=" max-w-[1200px] mx-auto my-16">
+    <section class=" max-w-[1200px] mx-auto my-16">
       <h2 class="text-3xl font-bold text-primary-font mb-12 text-center">RECEIVE GIFT VOUCHER</h2>
-      <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
         <!-- firs card  -->
-        <div class="card card-compact border-2 rounded-none">
+        <div id="first_card" class="card card-compact border-2 rounded-none">
           <figure>
-            <img class="my-0" src="images/gift voucher 01.jpg" alt="Shoes" />
+            <img class="my-0 p-4 pt-8" src="images/gift voucher 01.jpg" alt="Shoes" />
           </figure>
           <div class="card-body space-y-3">
 
@@ -503,9 +505,9 @@
           </div>
         </div>
         <!-- second card  -->
-        <div class="card card-compact border-2 rounded-none">
+        <div id="first_card" class="card card-compact border-2 rounded-none">
           <figure>
-            <img class="my-0" src="images/gift voucher 02.jpg" alt="Shoes" />
+            <img class="my-0 p-4 pt-8" src="images/gift voucher 02.jpg" alt="Shoes" />
           </figure>
           <div class="card-body space-y-3">
             <p class="text-base font-semibold text-center">Gift Voucher 7000</p>
@@ -516,9 +518,9 @@
           </div>
         </div>
         <!-- third card  -->
-        <div class="card card-compact border-2 rounded-none">
+        <div id="first_card" class="card card-compact border-2 rounded-none">
           <figure>
-            <img class="my-0" src="images/gift voucher 03.jpg" alt="Shoes" />
+            <img class="my-0 p-4 pt-8" src="images/gift voucher 03.jpg" alt="Shoes" />
           </figure>
           <div class="card-body space-y-3">
 
@@ -530,9 +532,9 @@
           </div>
         </div>
         <!-- fourth card  -->
-        <div class="card card-compact border-2 rounded-none">
+        <div id="first_card" class="card card-compact border-2 rounded-none">
           <figure>
-            <img class="my-0" src="images/gift voucher 04.jpg" alt="Shoes" />
+            <img class="my-0 p-4 pt-8" src="images/gift voucher 04.jpg" alt="Shoes" />
           </figure>
           <div class="card-body space-y-3">
 
@@ -543,6 +545,14 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- CAPTURE US ON INSTAGRAM / FACEBOOK Section  -->
+     <section class="max-w-[1200px] mx-auto my-16">
+      <h2 class="text-3xl font-bold text-primary-font text-center lg:mt-32 mb-10">CAPTURE US ON INSTAGRAM / FACEBOOK</h2>
+      <div class="grid grid-cols-2 lg:grid-cols-5 gap-5">
+        <img src="" alt="">
+
       </div>
      </section>
   </main>

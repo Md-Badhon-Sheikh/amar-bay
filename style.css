@@ -1,11 +1,40 @@
-#search-ber input::placeholder{
+#search-ber input::placeholder {
     font-weight: 500;
     font-size: 18px;
     color: rgba(10, 10, 10, 0.685);
 }
 
-.custom-table table tr th{
+.custom-table table tr th {
     border-collapse: collapse;
     border: 2px solid;
     padding: 15px 75px;
+}
+.card_effect{
+     overflow: hidden;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+     transition:  transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.card_effect:hover{
+    transform: scale(1.08);
+}
+
+
+#first_card {
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#first_card:hover{
+    transform: scale(1.05);
+}
+.img_container{
+    position: relative;
+}
+.img_2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img_container .img_2:hover{
+    opacity: 1;
 }
