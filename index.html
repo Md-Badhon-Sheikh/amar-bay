@@ -32,11 +32,12 @@
 <body>
   <header>
     <!-- navigation section  -->
-    <div class="h-8 bg-black">
-
-    </div>
+    
     <section>
-      <div class="navbar bg-white py-4 lg:pr-20 lg:pl-10">
+      <div class="navbar bg-white fixed z-50 py-4 mt-8 lg:pr-20 lg:pl-10 drop-shadow-lg">
+        <div class="h-16 fixed bg-black mt-[-150px] w-full lg:-ml-10">
+
+        </div>
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -59,7 +60,7 @@
           </a>
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 uppercase font-bold text-base lg:space-x-4 lg:-ml-16">
+          <ul class="menu menu-horizontal px-1 uppercase font-bold text-base lg:space-x-4 md:ml-24 lg:-ml-16">
             <li><a>Man</a></li>
             <li><a>Woman</a></li>
             <li><a>Kids</a></li>
@@ -85,7 +86,7 @@
     </section>
     <!-- carousal section  -->
     <section>
-      <div class="carousel w-full">
+      <div class="carousel w-full mt-20">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="images/Banner-01.png" class="w-full" />
           <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
